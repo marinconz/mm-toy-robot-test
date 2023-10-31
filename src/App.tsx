@@ -1,9 +1,16 @@
 import React from 'react';
+import {
+  CommandLineInput,
+  CommandLineLabel,
+  CommandLineSubmit
+} from './components/CommandInput/GenericComponents';
 
 function App() {
   return (
     <div>
-      <header>Initial project</header>
+      <CommandLineLabel>Hola</CommandLineLabel>
+      <CommandLineInput placeholder="Write your command" />
+      <CommandLineSubmit>push</CommandLineSubmit>
     </div>
   );
 }
